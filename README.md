@@ -1,5 +1,5 @@
 # back_pain
 classification 
-hi, this is bidisha.
-The world of analytics is quite interesting and vast like a depth of a ocean.
-Learning everyday new methods and adding significant insights to data is a great task.
+This dataset has 310 observations with 12 continuous variable and one categorical variable. Dependent variable has two features as abnormal and normal. As this is a healthcare dataset, recall should be greater than precision. That mean's we have to reduce false negative to increase recall. In the confusion matrix TN is greater than TP which is a good sign. The intuition behind this explains that actually predicted is abnormal and predicted outcome is also abnormal.
+As Logistic Regression cannot work with categories we have to create dummy feature for encoding the target variable.
+Accuracy of the model is 88%
